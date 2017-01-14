@@ -1,0 +1,55 @@
+body{
+    width:80%;
+
+	border:20px solid pink;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding:20px;
+	max-width:700px;
+	
+	margin: 20px auto; /*o for top and bottom, auto for left and right*/
+	
+
+}
+
+/*body {
+  width: 80%;
+  border: 20px solid #bdc3c7;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+}*/
+
+
+.post {
+  margin-bottom: 20px;
+}
+
+
+.quote{
+
+	border-left: 5px solid pink;
+	padding-left: 5px;
+
+}
+
+.date{
+
+	color:3498db;
+	text-transform: uppercase;	
+	letter-spacing: :0.2rem;
+}
+h2{
+	color: 3498db;
+	font-size: 2.0rem;
+	font-weight: bold;
+
+	/*font-family: Source Sans Pro;*/
+}
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
